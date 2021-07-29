@@ -5,6 +5,7 @@ A Simple GUI For FreeRDP, written in python pygobject
 ## runtime
 python 3  
 Gtk+ 3.0  
+FreeRDP  
 ## python library
 pygobject  
 
