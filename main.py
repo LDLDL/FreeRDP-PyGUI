@@ -257,9 +257,9 @@ class MainWindow(Gtk.ApplicationWindow):
 
     def on_treeview_row_activated(self, treeview: Gtk.TreeView, path: Gtk.TreePath, column: Gtk.TreeViewColumn):
         index = path.get_indices()[0]
-        self.close()
+        # self.close()
         subprocess.Popen(self.serv_list[index].get_command())
-        exit(0)
+        # exit(0)
 
     def on_treeview_button_press(self, treeview: Gtk.TreeView, event: Gdk.EventButton):
         # right click
